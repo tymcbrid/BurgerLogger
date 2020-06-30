@@ -1,9 +1,19 @@
-<li>
+{{!-- <li>
 	{{burger_name}}
 
 	<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-		{{#if devoured}}I'M FULL{{else}}TIME TO EAT{{/if}}
+		{{#if devoured}}Get Another One{{else}}Devour It!{{/if}}
 	</button>
 
-	{{!-- <button class="delete-burger" data-id="{{this.id}}">DELETE!</button> --}}
-</li>
+	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+</li> --}}
+
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <p class="card-text">{{id}}. {{burger_name}}</p>
+  </div>
+  	<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+		{{#if devoured}}Get Another One{{else}}Devour It!{{/if}}
+	</button>
+</div>
