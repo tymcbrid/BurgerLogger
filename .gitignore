@@ -108,4 +108,4 @@ dist
 
 
 # REMOVE THIS
-connection.js
+config/connection.js
