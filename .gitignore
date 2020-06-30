@@ -105,3 +105,7 @@ dist
 
 # DS STORE Files
 .DS_Store
+
+
+# REMOVE THIS
+connection.js
