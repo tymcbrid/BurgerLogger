@@ -13,8 +13,9 @@ var burger = {
         cb(res);
       });
     },
-    updateOne: function(objColVals, condition, cb) {
-      orm.updateOne("burgers", objColVals, condition, function(res) {
+    updateOne: function(condition, cb) {
+      console.log(condition + "on burger.js");
+      orm.updateOne("burgers", condition, function(res) {
         cb(res);
       });
     }

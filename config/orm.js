@@ -71,11 +71,16 @@ function printQuestionMarks(num) {
       });
     },
     // An example of objColVals would be {burger_name: BBQ Burger, devoured: true}
-    updateOne: function(table, objColVals, condition, cb) {
+    updateOne: function(table, condition, cb) {
+      // console.log(objColVals);
+      // console.log("hi");
+      // console.log(objToSql(objColVals))
+      console.log(condition + "on orm");
+
       var queryString = "UPDATE " + table;
   
       queryString += " SET ";
-      queryString += objToSql(objColVals);
+      queryString += "devoured = " + false;
       queryString += " WHERE ";
       queryString += condition;
   
@@ -88,6 +93,9 @@ function printQuestionMarks(num) {
         cb(result);
       });
     }
+
+
+
     // ADD COMMA ABOVE TO PUT BACK IN DELETE
     // delete: function(table, condition, cb) {
     //   var queryString = "DELETE FROM " + table;
