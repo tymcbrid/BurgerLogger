@@ -2,13 +2,12 @@
 <div class="wrapper">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <h1>(Burger Pic Here)</h1>
-                <h1>Eat-Da-Burger!</h1>
-            </div>
+                <img src="/assets/img/bacon-burger.png" alt="Bacon Burger" id="burgerPic" width="250" height="250">
         </div>
+        <div class="row"><h1  id="eatText">Eat-Da-Burger!</h1></div>
         <div class="row">
-            <div class="col-sm-6">
+          <div class="col-sm-2"></div>
+            <div class="col-sm-4">
                 <ul class="list-group"> 
                 {{#each burgers}}
                     {{#if devoured}}
@@ -17,7 +16,7 @@
                 {{/each}}
                 </ul>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 <ul class="list-group">
                 {{#each burgers}}
                     {{#unless devoured}}
@@ -28,15 +27,24 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12">
-                <div class="form-group">
-                    <label for="inputNewBurger"></label>
-                    <textarea class="form-control" id="newBurger" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary mb-2" id="submitNew">Submit</button>
-                <p>Enter a burger that you want to eat and click the "Submit" button.</p>
-            </div>
+          <div class="col-sm-2"></div>
+           <div class="col-sm-8">
+          <div class="form-group">
+              <label for="inputNewBurger"></label>
+              <textarea class="form-control" id="newBurger" rows="3"></textarea>
+          </div>
+           </div>
         </div>
+        <div class="row"  id="submitNew">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-2">
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+          </div>
+        </div>
+        <div class="row"  id="submitNew">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-8">          <p>Enter a burger that you want to eat and click the "Submit" button.</p></div>
+        </div>   
     </div>
 </div>
 

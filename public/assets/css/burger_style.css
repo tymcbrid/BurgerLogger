@@ -1,3 +1,16 @@
 .wrapper {
     background-color: orange;
 }
+
+#burgerPic {
+   margin: auto;
+}
+
+#eatText {
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#submitNew {
+    margin: auto;
+}
