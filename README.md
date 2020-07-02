@@ -1,4 +1,4 @@
-# README_generator   
+# Burger Logger 
 ### This project uses node.js that allows a user to create and consume burgers by storing data in a JawsDB. This application is deployed using Heroku.
 
 
