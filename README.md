@@ -6,7 +6,7 @@
 
 
 # Table of Contents
-* [Primary Technology](#tecnology)
+* [Primary Technology](#technology)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
