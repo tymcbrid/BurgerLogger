@@ -1,6 +1,10 @@
 # README_generator   
 ### This project uses node.js that allows a user to create and consume burgers by storing data in a JawsDB. This application is deployed using Heroku.
 
+
+![Application Gif](https://media.giphy.com/media/U3JVsiyOro0d6rOJ9I/giphy.gif)
+
+
 # Table of Contents
 * [Primary Technology](#tecnology)
 * [Installation](#installation)
@@ -9,7 +13,6 @@
 * [Licensing](#licensing)
 
 
-![Application Gif](https://media.giphy.com/media/U3JVsiyOro0d6rOJ9I/giphy.gif)
 
 
 ### [Primary Technology](#technology)
